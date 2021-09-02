@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NeedIt">b30ea70207523010b128fa9e7c1ed055</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_58872_needit_needit">stateIN-5,1,2^EQ<item display_value="-5,1,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-5,1,2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_58872_needit_needit</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>action_category_creator,x_58872_needit.needit_user,workspace_user,workspace_list_admin,workspace_admin,workflow_report_viewer,workflow_publisher,workflow_creator,workflow_admin,web_service_admin,web_analytics_viewer,web_analytics_admin,view_changer,uxframework_user,uxframework_designer,user_criteria_admin,user_admin,user,usage_admin,upgrade_history_log_report_view,upgrade_history_log_report_on,update_version_report_view,update_version_report_on,update_set_preview_report_view,update_set_preview_report_on,unlimited_createnow,unified_plugin_read_only,ui_script_admin,ui_policy_admin,ui_page_admin,ui_notification_admin,ui_macro_admin,ui_dashboard_builder,ui_builder_admin,ui_action_admin,ts_admin,transform_type_admin,transform_definition_admin,tracked_file_reader,text_search_admin,test_kadidia_user,template_scheduler,template_read_global,template_editor_group,template_editor_global,template_editor,technology_service_owner,teamdev_user,teamdev_configure_instance,teamdev_code_reviewer,task_editor,tags_admin,survey_reader,survey_creator,survey_admin,suggestion_exempt,sttrm_admin,state_model_admin,sp_admin,source_control,soap_update,soap_script,soap_query_update,soap_query,soap_ecc,soap_delete,soap_create,soap,snc_read_only,snc_platform_rest_api_access,sn_ui_builder.dashboard_builder_admin,sn_tourbuilder.tour_user,sn_tourbuilder.tour_admin,sn_templated_snip.template_snippet_writer,sn_templated_snip.template_snippet_reader,sn_templated_snip.template_snippet_admin,sn_table_builder.user,sn_slm_timer.sla_timer_admin,sn_sla_definition_read,sn_request_write,sn_request_read,sn_request_approver_read,sn_publications_recipients_user,sn_publications_recipients_list_user,sn_publications.author,sn_publications.approver,sn_publications.admin,sn_prod_cat_rel.viewer,sn_prod_cat_rel.admin,sn_problem_write,sn_problem_read,sn_ppm_read,sn_ppm_finance_read,sn_pa_diagnostics.pa_diagnostic,sn_itfm_read,sn_investment_funding_read,sn_intel_analyzer.similarity_analyzer_admin,sn_incident_write,sn_incident_read,sn_help_admin,sn_g_app_creator.global,sn_g_app_creator.app_creator,sn_devstudio_user_preferences_user,sn_devstudio_studio_preferences_user,sn_dependentclient.dependentclient_user,sn_dd_itsmmobile_mobilestudio,sn_cicd.sys_ci_automation,sn_ci_gs_content.ci_guided_setup_admin,sn_chg_soc.change_soc_admin,sn_change_write,sn_change_read,sn_change_cab.cab_manager,sn_bm_client.benchmark_recommendation_viewer,sn_bm_client.benchmark_data_viewer,sn_bm_client.benchmark_admin,sn_appclient.app_client_user,sn_appclient.app_client_company_installer,sn_app_eng_studio.user,sn_agent_recommend.recommendation_admin,sla_manager,sla_admin,service_viewer,service_owner,service_model_security_admin,service_editor,service_api_admin,security_dashboard_user,search_application_admin,scriptlet_admin,script_include_admin,script_fix_admin,script_debugger,schedule_admin,scan_user,sam,rota_manager,rota_admin,roster_admin,role_delegator,rest_service,rest_api_explorer,report_user,report_scheduler,report_publisher,report_group,report_global,report_alias_admin,report_admin,release_admin,rate_limit_admin,query_no_domain_table_api,push_admin,public,problem_task_analyst,problem_manager,problem_coordinator,problem_admin,portfolio_viewer,portfolio_editor,portfolio_admin,platform_ml_write,platform_ml_read,platform_ml_create,personalize_ui,personalize_styles,personalize_rules,personalize_responses,personalize_list,personalize_form,personalize_dictionary,personalize_decision_table_input,personalize_control,personalize_choices,personalize,pdf_user,pdb_user,password_reset_service_desk,password_reset_credential_manager,password_reset_admin,pa_viewer,pa_threshold_admin,pa_target_admin,pa_power_user,pa_kpi_signal_admin,pa_data_collector,pa_contributor,pa_analyst,pa_admin,openapi_admin,odbc,oauth_user,oauth_admin,notification_provider_admin,nlu_user,nlu_admin,nlq_admin,model_manager,mobile_metadata_report_admin,mobile_analytics_viewer,mobile_analytics_admin,ml_report_user,ml_admin,mid_server,metric_admin,megaphone_admin,long_runner_poll_user,log_points,log_debugger,live_feed_admin,list_updater,knowledge_manager,knowledge_admin,knowledge,itom_admin,itil_admin,itil,inventory_user,inventory_admin,interaction_agent,interaction_admin,incident_manager,import_transformer,import_set_loader,import_scheduler,import_admin,impersonator,image_admin,hp_publisher_admin,guided_tour_analytics,guided_tour_admin,graphql_schema_admin,global_tags_creator,gauge_maker,function_field_admin,form_admin,flow_report_viewer,flow_operator,flow_designer_scripting,flow_designer,financial_mgmt_user,financial_mgmt_admin,filter_group,filter_global,filter_admin,export_set_scheduler,export_set_admin,evam_admin,enterprise_architect,embedded_help_admin,email_composer,email_client_template_read,email_client_quick_message_author,email_client_admin,email_api_send,email_account_admin,email_access_restriction_admin,ecmdb_admin,dependency_views,delegated_developer,decision_table_reader,decision_table_admin,data_policy_admin,data_lookup_admin,data_classification_auditor,data_classification_admin,dashboard_admin,customer_update_report_view,customer_update_report_on,currency_instance_report_admin,currency_instance_admin,currency_admin,credential_admin,contract_manager,content_admin,connection_admin,cmn_schedule_user,cmdb_read,cmdb_query_builder_read,cmdb_query_builder,cmdb_inst_admin,cmdb_import_api_admin,cloud_admin,clone_profile_admin,clone_admin,client_script_admin,chat_analytics_viewer,chat_analytics_admin,chat_admin,change_manager,certification_filter_admin,certification_admin,certification,category_manager,catalog_view_masked,catalog_template_editor,catalog_manager,catalog_lookup_manager,catalog_lookup_admin,catalog_item_designer,catalog_editor,catalog_channel_analyzer,catalog_builder_editor_blank_template,catalog_builder_editor,catalog_admin,catalog,canvas_user,canvas_admin,cannot_read_suggestions,business_stakeholder,business_rule_admin,business_relationship_manager,bsm_legacy_admin,bsm_legacy,atf_ws_designer,atf_test_designer,atf_test_admin,assignment_rule_admin,asset,assessment_admin,approver_user,approval_admin,application_owner,app_template_runner,app_template_author,app_service_user,app_service_admin,api_analytics_read,antivirus_viewer,antivirus_admin,announcement_admin,analytics_viewer,analytics_task_admin,analytics_admin,aisa_admin,ais_admin,agent_workspace_user,agent_security_admin,action_designer,activity_admin,activity_creator,admin,agent_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 21:08:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5653d01a07923010b128fa9e7c1ed032</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_5653d01a07923010b128fa9e7c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 21:31:15</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name>List'O'Records</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>
